@@ -72,12 +72,6 @@
   }
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
 html,
 body {
   max-width: 100vw;
@@ -85,13 +79,7 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: rgb(199, 199, 199);
 }
 
 a {
@@ -111,6 +99,7 @@ a {
 }
 
 .navbar li {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   list-style: none;
   justify-items: space-around;
   padding: 8px;
@@ -122,22 +111,38 @@ a {
   margin: 8px;
 }
 
-.navbar h1 {
+.navbar .name {
+  font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 15px;
+  font-size: 120%;
   display: flex;
-  justify-content: space-around;
-  margin: 10px;
   padding-right: 1100px;
   color: red;
 }
 
 .portfolio-text {
-  margin-top: 100px;
-  display: block;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 20px ;
+  display: block ;
   font-weight: bold;
-  font-size: 350%;
-  margin-left: 30px;
+  font-size: 300%;
+  margin-left: 70px;
 }
 
 .photo-etudiant {
-  
+  float: right;
+  margin-right: 200px;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+}
+
+.bouton-contact {
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 130px;
+  background-color: blue;
+  color: white;
 }
