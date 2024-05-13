@@ -6,8 +6,7 @@
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -104,4 +103,41 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.navbar {
+  display: flex;
+  justify-content: end;
+}
+
+.navbar li {
+  list-style: none;
+  justify-items: space-around;
+  padding: 8px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 8px;
+}
+
+.navbar h1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  padding-right: 1100px;
+  color: red;
+}
+
+.portfolio-text {
+  margin-top: 100px;
+  display: block;
+  font-weight: bold;
+  font-size: 350%;
+  margin-left: 30px;
+}
+
+.photo-etudiant {
+  
 }
