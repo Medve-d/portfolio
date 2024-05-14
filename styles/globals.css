@@ -44,7 +44,7 @@ a {
   font-size: 120%;
   display: flex;
   padding-right: 1100px;
-  color: red;
+  color: rgb(30, 75, 255);
 }
 
 .portfolio-text {
